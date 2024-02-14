@@ -14,43 +14,43 @@ $(function() {
 });
 
 function A() {
-    modal('我喜欢你！', B);
+    modal('我要告诉姥姥', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('你在', C);
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('2024年', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('2月', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我', F);
+    modal('12日', F);
 }
 
 function F() {
-    modal('跟我走吧', G);
+    modal('金猪拱门', G);
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('(^_^)', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('(^_^)', I);
 }
 
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('(^_^)', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('爱你呦！', function() {
         fireworks();
     });
 }
