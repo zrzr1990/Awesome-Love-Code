@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('爱你呦！(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,7 +9,7 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal(':)', A);
     });
 });
 
